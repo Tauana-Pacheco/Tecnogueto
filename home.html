@@ -31,7 +31,6 @@
        .bloco-de-recursos {
             text-align: center;
             width: 30%;
-            display: inline-block;
             margin: 50px 0 15px 0;
         }
 
@@ -45,9 +44,30 @@
             line-height: 36px;
             font-weight: 600;
         }
-
+ 
         .todos-os-blocos-de-recursos {
-            
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between; 
+        } 
+
+        .titulo-sessao {
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .titulo {
+           margin: 8px 0;
+           font-size: 48px;
+           font-weight: 800; 
+           line-height: 64px;
+        }
+
+        .sub-titulo {
+           font-size: 18px;
+           font-weight: normal; 
+           line-height: 32px;
         }
 
     </style>
@@ -56,57 +76,57 @@
 
 <body>
     <div class="conteudo">
-        <div>
-            <div style="text-align: center;">
-                <h1>Recursos sob medida</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non illum quia molestias assumenda officiis
-                    praesentium.
-                </p>
-            </div>
-    
-            <div class= "todos-os-blocos-de-recursos">
-                <i class="fas fa-wind"></i>
-                <h3 class="titulo-bloco-de-recursos">Fluxo de trabalho robusto</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non illum quia molestias assumenda officiis
-                    praesentium.
-                </p>
-            </div>
-            <div class="bloco-de-recursos">
-                <i class="fas fa-sync"></i>
-                <h3 class="titulo-bloco-de-recursos">Flexibilidade</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non illum quia molestias assumenda officiis
-                    praesentium.
-                </p>
-            </div>
-            <div class="bloco-de-recursos">
-                <i class="fas fa-layer-group"></i>
-                <h3 class="titulo-bloco-de-recursos">Amigável ao Usuário</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non illum quia molestias assumenda officiis
-                    praesentium.
-                </p>
-            </div>
-            <div class="bloco-de-recursos">
-                <i class="fas fa-window-restore"></i>
-                <h3 class="titulo-bloco-de-recursos">Multiplos Layouts</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non illum quia molestias assumenda officiis
-                    praesentium.
-                </p>
-            </div>
-            <div class="bloco-de-recursos">
-                <i class="fas fa-check-circle"></i>
-                <h3 class="titulo-bloco-de-recursos">Melhores componentes</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non illum quia molestias assumenda officiis
-                    praesentium.
-                </p>
-            </div>
-            <div class="bloco-de-recursos">
-                <i class="fas fa-bezier-curve"></i>
-                <h3 class="titulo-bloco-de-recursos">Bem organizado</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non illum quia molestias assumenda officiis
-                    praesentium.
-                </p>
-            </div>
-        </div>    
+    <div class="titulo-sessao">
+        <h1 class="titulo">Recursos sob medida</h1>
+        <h2 class="sub-titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non illum quia molestias assumenda officiis
+            praesentium.
+        </h2>
+    </div>
+
+    <div class= "todos-os-blocos-de-recursos">
+        <div class="bloco-de-recursos">
+            <i class="fas fa-wind"></i>
+            <h3 class="titulo-bloco-de-recursos">Fluxo de trabalho robusto</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non illum quia molestias assumenda officiis
+                praesentium.
+            </p>
+        </div>
+        <div class="bloco-de-recursos">
+            <i class="fas fa-sync"></i>
+            <h3 class="titulo-bloco-de-recursos">Flexibilidade</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non illum quia molestias assumenda officiis
+                praesentium.
+            </p>
+        </div>
+        <div class="bloco-de-recursos">
+            <i class="fas fa-layer-group"></i>
+            <h3 class="titulo-bloco-de-recursos">Amigável ao Usuário</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non illum quia molestias assumenda officiis
+                praesentium.
+            </p>
+        </div>
+        <div class="bloco-de-recursos">
+            <i class="fas fa-window-restore"></i>
+            <h3 class="titulo-bloco-de-recursos">Multiplos Layouts</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non illum quia molestias assumenda officiis
+                praesentium.
+            </p>
+        </div>
+        <div class="bloco-de-recursos">
+            <i class="fas fa-check-circle"></i>
+            <h3 class="titulo-bloco-de-recursos">Melhores componentes</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non illum quia molestias assumenda officiis
+                praesentium.
+            </p>
+        </div>
+        <div class="bloco-de-recursos">
+            <i class="fas fa-bezier-curve"></i>
+            <h3 class="titulo-bloco-de-recursos">Bem organizado</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio non illum quia molestias assumenda officiis
+                praesentium.
+            </p>
+        </div>
+    </div>    
     </div>
 
     <!-- <select class="select" multiple="choose options" >
