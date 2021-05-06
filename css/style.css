@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    color: #333333;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.conteudo {
+    width: 80%;
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+.bloco-de-recursos {
+    text-align: center;
+    width: 30%;
+    margin: 50px 0 15px 0;
+}
+
+.bloco-de-recursos i {
+    font-size: 32px;
+    color: #FF3773;
+}
+
+.titulo-bloco-de-recursos {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.todos-os-blocos-de-recursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+} 
+
+.titulo-sessao {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo {
+   margin: 8px 0;
+   font-size: 48px;
+   font-weight: 800; 
+   line-height: 64px;
+}
+
+.sub-titulo {
+   font-size: 18px;
+   font-weight: normal; 
+   line-height: 32px;
+}
+
+.cabecalho {
+    background-color: #fff;
+    box-shadow: 0  1px 0 #e5e9f2;
+    padding: 26px 0;
+   
+}
+
+.conteudo-header {
+   display: flex;
+   justify-content: space-between; 
+}
+
+.info-cabecalho,
+.info-cabecalho nav {
+   display: flex;
+   align-items: center;
+}
+
+.info-cabecalho img,
+.info-cabecalho nav a {
+    margin-right: 32px;
+}
+
+.info-cabecalho nav a {
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 20px;   
+   text-decoration: none;
+   color: rgb(32, 17, 17);
+}
+
+.botoes-lojas a {
+    margin-right: 12px;
+    text-decoration: none;
+}

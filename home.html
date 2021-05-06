@@ -1,80 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso basico de HTML e CSS</title>
+    <title>Curso | HTML e CSS</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8cd635fca2.js" crossorigin="anonymous"></script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body{
-            font-family: 'Manrope', sans-serif;
-            color: #333333;
-            font-size: 16px;
-            line-height: 26px;
-        }
-
-        .conteudo {
-            width: 80%;
-            max-width: 1140px;
-            margin: 0 auto 0 auto;
-        }
-
-       .bloco-de-recursos {
-            text-align: center;
-            width: 30%;
-            margin: 50px 0 15px 0;
-        }
-
-        .bloco-de-recursos i {
-            font-size: 32px;
-            color: #FF3773;
-        }
-
-        .titulo-bloco-de-recursos {
-            font-size: 24px;
-            line-height: 36px;
-            font-weight: 600;
-        }
- 
-        .todos-os-blocos-de-recursos {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between; 
-        } 
-
-        .titulo-sessao {
-            width: 50%;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        .titulo {
-           margin: 8px 0;
-           font-size: 48px;
-           font-weight: 800; 
-           line-height: 64px;
-        }
-
-        .sub-titulo {
-           font-size: 18px;
-           font-weight: normal; 
-           line-height: 32px;
-        }
-
-    </style>
 </head>
 
-
 <body>
+    <header class="cabecalho">
+        <div class="conteudo conteudo-header">
+            <div class="info-cabecalho">
+                <img src="./imagens/logo.png" alt="Logo Tecnogueto">
+                <nav>
+                    <a href="#">Sobre</a>
+                    <a href="#">Contato</a>
+                </nav>
+            </div>
+            <div class="botoes-lojas">
+                <a href="https://play.google.com/store?hl=pt_BR&gl=US" target="_blank"><img src="./imagens/botao-google-play.png" alt="Google Play"></a>
+                <a href="https://www.apple.com/br/" target="_blank"><img src="./imagens/botao-apple-store.png" alt="Apple Store"></a>
+            </div>
+        </div>
+    </header>
     <div class="conteudo">
     <div class="titulo-sessao">
         <h1 class="titulo">Recursos sob medida</h1>
