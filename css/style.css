@@ -93,3 +93,40 @@ body{
     margin-right: 12px;
     text-decoration: none;
 }
+
+/* geral */
+.titulo-principal {
+   font-weight: 800;
+   font-size: 72px;
+   line-height: 98px; 
+   margin-bottom: 32px;
+}
+
+.botao {
+    background:#28F5BE;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px 67px;
+    border-radius: 8px;
+}
+
+.botao:hover {
+    background: #FF3773;
+}
+
+/* Banner principal */
+.banner-principal {
+    background-image: url(../imagens/bg-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    padding-top: 96px; 
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
